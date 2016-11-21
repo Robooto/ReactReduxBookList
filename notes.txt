@@ -1,0 +1,29 @@
+Reducer is a function that returns application state
+
+export default function() {
+    return [
+        { title: 'Javascript: The Good Pars'},
+        { title: 'Harry Potter'},
+        { title: 'The Dark Tower'},
+        { title: 'Eloquent Ruby'}
+    ]
+}
+
+allows other files to import this
+
+react-redux is a library that uses redux in react
+
+How to pick containers.  Usually wants parent containers that care about state.
+
+Create containers import connect function from react-redux.
+
+Then connect a function to component
+
+Container is a react component that gets bonded to some application state.
+
+
+// actions and action creators
+
+Actions are events that are triggered by something (user, ajax request, etc)
+
+Action creator is a function that returns an object, which is sent to all reducers
